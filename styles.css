@@ -1,0 +1,39 @@
+html {
+	background-color: black;
+}
+
+#chat-client {
+	border: 2px solid white;
+	padding: 10px;
+	position: absolute;
+	top: 50px;
+	bottom: 50px;
+	left: 50px;
+	right: 50px;
+}
+
+#messages {
+    font: 14px "Consolas", sans-serif;
+	color: white;
+}
+
+#messages div:before {
+	content: "> "
+}
+
+#messages .info {
+	font-weight: bold;
+}
+
+#messages .user {
+	color: green;
+}
+
+#messages .bot {
+	color: red;
+}
+
+#hidden-input {
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
