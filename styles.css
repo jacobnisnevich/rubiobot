@@ -10,6 +10,7 @@ html {
 	bottom: 50px;
 	left: 50px;
 	right: 50px;
+	overflow-y: scroll;
 }
 
 #messages {
@@ -36,4 +37,14 @@ html {
 #hidden-input {
 	opacity: 0;
 	filter: alpha(opacity = 0);
+}
+
+::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+	border: 2px solid black;
+	background-color: white;
 }

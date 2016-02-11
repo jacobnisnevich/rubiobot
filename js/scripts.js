@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 var handleEnter = function() {
 	printResponse();
-
+	$('#chat-client').scrollTop($('#chat-client')[0].scrollHeight);
 	$("#hidden-input").val("");
 }
 
